@@ -6,6 +6,10 @@ Uma lista de tarefas dinâmica e intuitiva.
 
 Esse projeto tem o intuito de estudar a estrutura de React e seus metodos de desenvolvimento. Bem como estudar e aplicar o Redux.
 
+### Interface
+
+Aqui esta o link com os wireframes que vao ser apresentados no projeto
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
