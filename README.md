@@ -1,3 +1,12 @@
+# Super ToDo List
+
+Uma lista de tarefas dinâmica e intuitiva.
+
+## Motivação
+
+Esse projeto tem o intuito de estudar a estrutura de React e seus metodos de desenvolvimento. Bem como estudar e aplicar o Redux.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
