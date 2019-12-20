@@ -1,0 +1,25 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 74px;
+
+    background: #2F80ED;
+}
+
+.titulo-header {
+    position: absolute;
+    width: 682px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FCFCFC;
+}
