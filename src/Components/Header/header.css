@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 74px;
+    background: #2F80ED;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-header {
+    display: flex;
+    font-size: 300%;
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+    color: #FCFCFC;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
