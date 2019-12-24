@@ -13,5 +13,37 @@
 }
 
 .adicionar {
+    background-color: #C4C4C4;
     height: 100%;
+    padding: 2vh;
+    border-radius: 2vh;
+    margin: 4vh 10vw;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D6D6D6;
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 2vh;
+}
+
+.areaBotao {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.botao {
+    border-style: inherit;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1vh;
+    cursor: pointer;
+    font-size: 2vh;
+    background-color: #2F80ED;
+    color: #FCFCFC;
 }
