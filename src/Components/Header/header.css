@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 80px;
+    height: 8vh;
     background: #2F80ED;
     align-items: center;
     justify-content: center;
@@ -8,8 +8,8 @@
 
 .titulo-header {
     display: flex;
-    font-size: 300%;
-    padding: 10px;
+    font-size: 4vh;
+    padding: 2vh;
     align-items: center;
     text-align: center;
     color: #FCFCFC;

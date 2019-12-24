@@ -8,7 +8,7 @@ export default function Header(props) {
     return (
         <div className="header">
             <div className="titulo-header">
-                <IoMdMenu size={66} />
+                <IoMdMenu size={'4vh'} />
                 <div>{props.name}</div>
                 <div></div>
             </div>

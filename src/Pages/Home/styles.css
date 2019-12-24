@@ -1,7 +1,5 @@
 .container {
-    padding: 30px;
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 100%;
+    padding: 2vh;
 }
 
 .categorias {
@@ -14,4 +12,6 @@
     width: 100%;
 }
 
-.adicionar {}
+.adicionar {
+    height: 100%;
+}
