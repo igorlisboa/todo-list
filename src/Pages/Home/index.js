@@ -16,6 +16,11 @@ export default function Home() {
                     <Card title={"Categoria B"} />
                     <Card title={"Categoria C"} />
                 </div>
+                <div className="categorias">
+                    <Card title={"Categoria A"} />
+                    <Card title={"Categoria B"} />
+                    <Card title={"Categoria C"} />
+                </div>
                 <Form />
             </div>
         </>

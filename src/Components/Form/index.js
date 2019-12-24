@@ -5,27 +5,25 @@ import './style.css';
 export default function Form(props) {
     return (
         <div className="adicionar">
-            <form>
-                <div style={{ textAlign: 'center', fontSize: '4vh' }}>
-                    <p>ToDO</p>
+            <div style={{ textAlign: 'center', fontSize: '4vh' }}>
+                <p>ToDO</p>
+            </div>
+            <div>
+                <div className="opcoes">
+                    <p>titulo</p>
+                    <p>categoria</p>
                 </div>
-                <div>
-                    <div className="opcoes">
-                        <p>titulo</p>
-                        <p>categoria</p>
-                    </div>
-                    <div className="opcoes">
-                        <p>data</p>
-                        <p>anexo</p>
-                    </div>
-                    <div className="opcoes">
-                        <p>descriçao</p>
-                    </div>
+                <div className="opcoes">
+                    <p>data</p>
+                    <p>anexo</p>
                 </div>
-                <div className="areaBotao">
-                    <button className="botao">salvar</button>
+                <div className="opcoes">
+                    <p>descriçao</p>
                 </div>
-            </form>
+            </div>
+            <div className="areaBotao">
+                <button className="botao">salvar</button>
+            </div>
 
         </div>
     );
