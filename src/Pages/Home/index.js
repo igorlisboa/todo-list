@@ -20,6 +20,15 @@ export default function Home() {
             {
                 nome: 'Categoria C'
             },
+            {
+                nome: 'Categoria D',
+            },
+            {
+                nome: 'Categoria E'
+            },
+            {
+                nome: 'Categoria F'
+            },
         ])
     }, [])
 
@@ -27,13 +36,13 @@ export default function Home() {
         <>
             <Header name={"ToDo List"} />
             <div className="container">
-                <div className="categorias">
-                    {categorias?.map(e => (
-                        <Card key={e.nome} title={e.nome} />
-                    ))}
-                </div>
-                <Form />
+                {categorias?.map(e => (
+                    <div className="categorias">
+                        <Card className="card" key={e.nome} title={e.nome} />
+                    </div>
+                ))}
             </div>
+            <Form />
         </>
     );
 }
