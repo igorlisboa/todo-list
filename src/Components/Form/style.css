@@ -1,27 +1,81 @@
-.adicionar {
-    background-color: #C4C4C4;
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
     height: 100%;
-    padding: 2vh;
+    width: 100%;
+    padding: 10vh;
+}
+
+.adicionar {
+    display: grid;
+    background-color: #C4C4C4;
     border-radius: 2vh;
-    margin: 4vh 10vw;
+    display: grid;
+    padding: 10px;
+    padding-top: 50px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    grid-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 30vh;
 }
 
 
-.opcoes {
+ .opcoes {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #D6D6D6;
-    padding: 1vh;
-    margin: 1vh;
     border-radius: 2vh;
+    height: 30px;
+}
+
+.titulo {
+    grid-area: 1 / 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcao-1{
+    grid-area: 1 / 1;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcao-2{
+    grid-area: 2 / 1;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcao-3{
+    grid-area: 3 / 1;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .areaBotao {
-    display: flex;
+    grid-area: 5 / 2;
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
     justify-content: center;
-    padding: 2vh 0;
+    align-items: center;
 }
 
 .botao {
@@ -33,4 +87,6 @@
     font-size: 2vh;
     background-color: #2F80ED;
     color: #FCFCFC;
+    justify-content: center;
+    align-items: center;
 }
